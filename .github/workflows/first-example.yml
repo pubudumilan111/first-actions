@@ -8,5 +8,5 @@ jobs:
       uses: actions/checkout@v4.1.7
 
     - name: Execute script
-      run:  ./myscript.sh
+      run:  cat myscript.sh
 
