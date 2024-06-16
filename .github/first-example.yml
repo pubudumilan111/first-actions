@@ -1,16 +1,12 @@
 name: My First Workflow2
-
 on: push
-
 jobs:
   first_job:
     runs-on:  ubuntu-latest
     steps:
     - name: Welcome message
       run:  echo "This is my forst action"
-
     - name: list files
       run:  ls
-
     - name: Read file
       run:  cat README.md
