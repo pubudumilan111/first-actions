@@ -7,6 +7,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4.1.7
 
+    - name: permission grant
+      uses: chown +x myscript.sh
+
     - name: Execute script
       run:  ./myscript.sh
 
